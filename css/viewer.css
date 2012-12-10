@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a9a9a9;
+}
+
+#viewers.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.viewer {
+    background-color: #EEEEEE;
+    font-size: 0.9em;
+}
+
+#viewers .row-fluid .span6 {
+    border-left: 1px solid #a9a9a9;
+}
+
+.viewer.left {
+    border-right: 1px solid #a9a9a9;
+}
+
+.viewer.right {
+}
+
+/* modified scrollbar ... looks flat and semi-transparent */
+.scroll-mod::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+.scroll-mod::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scroll-mod::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -o-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #D1D1D1;
+}
+
+/* bottom shadow, assigned via javascript to the header when the content scrolls "under" the header */
+.scroll-shadow {
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+}
